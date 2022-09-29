@@ -69,6 +69,8 @@ def isEventValid(data):
     elif len(data)==2:
         return isStatusEventValid(data)
 
+    return False
+
 # validating StatusEvent here
 def isStatusEventValid(data):
 
